@@ -1,0 +1,13 @@
+## Interface: 90205
+## Interface-Classic: 11402
+## Interface-BCC: 20504
+## Interface-Wrath: 30400
+## Title: Lib: DRList-1.0
+## Version: v1.3.2
+## X-Category: Library
+## X-License: MIT
+## X-Curse-Project-ID: 315757
+## X-Wago-ID: 9rN4BxKD
+
+
+DRList-1.0.xml

@@ -1,0 +1,27 @@
+bind BUTTON3 STARTAUTORUN
+bind Q CLICK BT4Button49:LeftButton
+bind E CLICK BT4Button50:LeftButton
+bind X CLICK BT4Button56:LeftButton
+bind Z CLICK BT4Button55:LeftButton
+bind R CLICK BT4Button51:LeftButton
+bind SHIFT-R MULTIACTIONBAR3BUTTON10
+bind - NONE
+bind = NONE
+bind CTRL-F1 NONE
+bind G CLICK BT4Button54:LeftButton
+bind F CLICK BT4Button53:LeftButton
+bind V CLICK BT4Button58:LeftButton
+bind SHIFT-V ELVUIBAR2BUTTON12
+bind C CLICK BT4Button57:LeftButton
+bind Y NONE
+bind SHIFT-C CLICK BT4Button72:LeftButton
+bind T CLICK BT4Button52:LeftButton
+bind [ PAWN_COMPARE_LEFT
+bind ] PAWN_COMPARE_RIGHT
+bind SHIFT-S NONE
+bind SHIFT-E CLICK BT4Button60:LeftButton
+bind SHIFT-Q CLICK BT4Button59:LeftButton
+bind SHIFT-X MULTIACTIONBAR3BUTTON3
+bind SHIFT-1 SHAPESHIFTBUTTON1
+bind SHIFT-Z ELVUIBAR2BUTTON9
+bind SHIFT-F ELVUIBAR2BUTTON11

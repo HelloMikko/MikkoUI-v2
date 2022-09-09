@@ -1,0 +1,225 @@
+
+MBFDB = {
+	["profileKeys"] = {
+		["Mandalari - Dalaran"] = "Default",
+		["Pandæxprêss - Dalaran"] = "Default",
+		["Sæsha - Dalaran"] = "DRUID",
+		["Hellomikko - Dalaran"] = "Default",
+		["Madmerisa - Dalaran"] = "Default",
+		["Kasplat - Dalaran"] = "Default",
+		["Simberdra - Stormrage"] = "Default",
+		["Schematx - Stormrage"] = "Default",
+		["Hellojenna - Dalaran"] = "Default",
+	},
+	["profiles"] = {
+		["Sæsha - Dalaran"] = {
+			["rollUp"] = true,
+			["mbfHidden"] = true,
+		},
+		["DRUID"] = {
+			["MBF_FrameLocation"] = {
+				"TOPLEFT", -- [1]
+				"TOPLEFT", -- [2]
+				40.44405364990234, -- [3]
+				-17.77771377563477, -- [4]
+			},
+			["MBF_Include"] = {
+				"DugisOnOffButton", -- [1]
+				"DugisOnOffButton", -- [2]
+				"DugisOnOffButton", -- [3]
+				"DugisOnOffButton", -- [4]
+				"DugisOnOffButton", -- [5]
+				"DugisOnOffButton", -- [6]
+				"DugisOnOffButton", -- [7]
+				"DugisOnOffButton", -- [8]
+				"DugisOnOffButton", -- [9]
+				"DugisOnOffButton", -- [10]
+				"DugisOnOffButton", -- [11]
+				"DugisOnOffButton", -- [12]
+				"DugisOnOffButton", -- [13]
+				"DugisOnOffButton", -- [14]
+				"DugisOnOffButton", -- [15]
+				"DugisOnOffButton", -- [16]
+				"DugisOnOffButton", -- [17]
+				"DugisOnOffButton", -- [18]
+				"DugisOnOffButton", -- [19]
+				"DugisOnOffButton", -- [20]
+				"DugisOnOffButton", -- [21]
+				"DugisOnOffButton", -- [22]
+				"DugisOnOffButton", -- [23]
+				"DugisOnOffButton", -- [24]
+				"DugisOnOffButton", -- [25]
+				"DugisOnOffButton", -- [26]
+				"DugisOnOffButton", -- [27]
+				"DugisOnOffButton", -- [28]
+				"DugisOnOffButton", -- [29]
+				"DugisOnOffButton", -- [30]
+				"DugisOnOffButton", -- [31]
+				"DugisOnOffButton", -- [32]
+				"DugisOnOffButton", -- [33]
+				"DugisOnOffButton", -- [34]
+				"DugisOnOffButton", -- [35]
+				"DugisOnOffButton", -- [36]
+				"DugisOnOffButton", -- [37]
+				"DugisOnOffButton", -- [38]
+			},
+			["addonScale"] = 0.9,
+			["disabledMail"] = false,
+			["excludeLFG"] = true,
+			["rollUp"] = true,
+			["grabMBFButton"] = true,
+			["MBF_Ignore"] = {
+				nil, -- [1]
+				"QueueStatusMinimapButton", -- [2]
+			},
+			["dragLocked"] = true,
+			["customChildren"] = {
+				"MinimapButtonFrameDragButton", -- [1]
+				"MiniMapMailFrameDisabled", -- [2]
+				"MiniMapMailFrame", -- [3]
+				"GameTimeFrame", -- [4]
+				"DugisOnOffButton", -- [5]
+				"LibDBIcon10_DBM", -- [6]
+				"LibDBIcon10_GSE GnomeSequencer-Enhanced", -- [7]
+				"LibDBIcon10_Hekili", -- [8]
+				"LibDBIcon10_MBF", -- [9]
+				"LibDBIcon10_MythicDungeonTools", -- [10]
+				"LibDBIcon10_SimulationCraft", -- [11]
+				"LibDBIcon10_Masque", -- [12]
+				"MiniMapWorldMapButton", -- [13]
+				"MiniMapTracking", -- [14]
+				"MinimapZoomIn", -- [15]
+				"MinimapZoomOut", -- [16]
+				"GuildInstanceDifficulty", -- [17]
+				"LibDBIcon10_Details", -- [18]
+				"ZygorGuidesViewerMapIcon", -- [19]
+				"LibDBIcon10_VuhDo", -- [20]
+				"LibDBIcon10_MythicPlusCalculator!", -- [21]
+				"LibDBIcon10_WeakAuras", -- [22]
+			},
+			["mbfAnchor"] = "TOPLEFT",
+			["grabBlizzButtons"] = true,
+			["minimapButton"] = {
+				["hide"] = false,
+			},
+			["mbfHidden"] = true,
+		},
+		["Default"] = {
+			["ButtonOverride"] = {
+				[12] = "gse",
+			},
+			["addonScale"] = 0.9,
+			["MBFHideMiniMapWorldMapButton"] = true,
+			["columns_or_rows"] = 6,
+			["locked"] = true,
+			["currentMinimapIcon"] = "WestPointer",
+			["buttonText"] = "Mikko",
+			["GrowUp"] = false,
+			["minimapButton"] = {
+				["hide"] = false,
+			},
+			["disabledMail"] = false,
+			["MBFHideMinimapZoomIn"] = true,
+			["altTitle"] = true,
+			["dragLocked"] = true,
+			["MBF_FrameLocation"] = {
+				"TOPLEFT", -- [1]
+				"TOPLEFT", -- [2]
+				nil, -- [3]
+				-34.99114608764648, -- [4]
+			},
+			["colorLocked"] = "All",
+			["MBF_Include"] = {
+				"DugisOnOffButton", -- [1]
+				"DugisOnOffButton", -- [2]
+				"DugisOnOffButton", -- [3]
+				"DugisOnOffButton", -- [4]
+				"DugisOnOffButton", -- [5]
+				"DugisOnOffButton", -- [6]
+				"DugisOnOffButton", -- [7]
+				"DugisOnOffButton", -- [8]
+				"DugisOnOffButton", -- [9]
+				"DugisOnOffButton", -- [10]
+				"DugisOnOffButton", -- [11]
+				"DugisOnOffButton", -- [12]
+				"DugisOnOffButton", -- [13]
+				"DugisOnOffButton", -- [14]
+				"DugisOnOffButton", -- [15]
+				"DugisOnOffButton", -- [16]
+				"DugisOnOffButton", -- [17]
+				"DugisOnOffButton", -- [18]
+				"DugisOnOffButton", -- [19]
+				"DugisOnOffButton", -- [20]
+				"DugisOnOffButton", -- [21]
+				"DugisOnOffButton", -- [22]
+				"DugisOnOffButton", -- [23]
+				"DugisOnOffButton", -- [24]
+				"DugisOnOffButton", -- [25]
+				"DugisOnOffButton", -- [26]
+				"DugisOnOffButton", -- [27]
+				"DugisOnOffButton", -- [28]
+				"DugisOnOffButton", -- [29]
+				"DugisOnOffButton", -- [30]
+				"DugisOnOffButton", -- [31]
+				"DugisOnOffButton", -- [32]
+				"DugisOnOffButton", -- [33]
+				"DugisOnOffButton", -- [34]
+				"DugisOnOffButton", -- [35]
+				"DugisOnOffButton", -- [36]
+				"DugisOnOffButton", -- [37]
+				"DugisOnOffButton", -- [38]
+				"DugisOnOffButton", -- [39]
+				"DugisOnOffButton", -- [40]
+				"DugisOnOffButton", -- [41]
+				"DugisOnOffButton", -- [42]
+				"DugisOnOffButton", -- [43]
+				"DugisOnOffButton", -- [44]
+			},
+			["mbfAnchor"] = "TOPLEFT",
+			["MinimapIcons"] = {
+				[18] = "gse",
+			},
+			["customChildren"] = {
+				"MinimapButtonFrameDragButton", -- [1]
+				"MiniMapMailFrameDisabled", -- [2]
+				"LibDBIcon10_AskMrRobot", -- [3]
+				"LibDBIcon10_Bartender4", -- [4]
+				"LibDBIcon10_WeakAuras", -- [5]
+				"LibDBIcon10_Hekili", -- [6]
+				"LibDBIcon10_PitBull4", -- [7]
+				"LibDBIcon10_SimulationCraft", -- [8]
+				"DugisOnOffButton", -- [9]
+				"wlMinimapButton", -- [10]
+				"ZygorGuidesViewerMapIcon", -- [11]
+				"LibDBIcon10_DBM", -- [12]
+				"LibDBIcon10_MethodRaidTools", -- [13]
+				"LibDBIcon10_Details", -- [14]
+				"GuildInstanceDifficulty", -- [15]
+				"LibDBIcon10_MythicDungeonTools", -- [16]
+				"MiniMapMailFrame", -- [17]
+				"QueueStatusMinimapButton", -- [18]
+				"LibDBIcon10_MBF", -- [19]
+				"LibDBIcon10_Nys_ToDoList", -- [20]
+				"LibDBIcon10_BestInSlotRedux", -- [21]
+				"LibDBIcon10_BigWigs", -- [22]
+				"LibDBIcon10_Plater", -- [23]
+				"TomCats-MinimapButton", -- [24]
+				"LibDBIcon10_WITGuides!", -- [25]
+				"LibDBIcon10_Dominos", -- [26]
+				"LibDBIcon10_MythicPlusCalculator!", -- [27]
+				"LibDBIcon10_GSE GnomeSequencer-Enhanced", -- [28]
+				"LibDBIcon10_AstralKeys", -- [29]
+				"LibDBIcon10_Masque", -- [30]
+				"LibDBIcon10_DetailsStreamer", -- [31]
+				"LibDBIcon10_VuhDo", -- [32]
+			},
+			["grabMBFButton"] = true,
+			["padding"] = 0,
+		},
+		["Dalaran"] = {
+			["currentChild"] = "DugisOnOffButton",
+			["dragLocked"] = false,
+			["sort_by_rows"] = true,
+		},
+	},
+}

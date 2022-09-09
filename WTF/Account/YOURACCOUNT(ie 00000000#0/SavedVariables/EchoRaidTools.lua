@@ -1,0 +1,2 @@
+
+EchoRaidToolsDB = nil

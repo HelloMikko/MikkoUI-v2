@@ -1,0 +1,48 @@
+
+RaiderIO_Config = {
+	["enableKeystoneTooltips"] = true,
+	["previouslyEnabledLogging"] = false,
+	["profilePoint"] = {
+		["y"] = -243.2583465576172,
+		["x"] = 287.6127014160156,
+		["point"] = "CENTER",
+	},
+	["enableLFGDropdown"] = true,
+	["displayWeeklyGuildBest"] = true,
+	["mplusHeadlineMode"] = 0,
+	["showMainsScore"] = true,
+	["showRaidEncountersInProfile"] = true,
+	["showAverageScore"] = true,
+	["enableWhoMessages"] = true,
+	["useEnglishAbbreviations"] = true,
+	["disableScoreColors"] = false,
+	["showMainBestScore"] = true,
+	["allowClientToControlCombatLog"] = true,
+	["showRaiderIOProfile"] = true,
+	["enableCombatLogTracking"] = true,
+	["enableGuildTooltips"] = true,
+	["enableWhoTooltips"] = true,
+	["showSimpleScoreColors"] = false,
+	["enableUnitTooltips"] = true,
+	["hidePersonalRaiderIOProfile"] = false,
+	["showRoleIcons"] = true,
+	["enableFriendsTooltips"] = true,
+	["showScoreModifier"] = true,
+	["showDropDownCopyURL"] = true,
+	["enableLFGTooltips"] = true,
+	["enableProfileModifier"] = true,
+	["enableClientEnhancements"] = true,
+	["positionProfileAuto"] = true,
+	["lockProfile"] = true,
+	["showScoreInCombat"] = true,
+	["inverseProfileModifier"] = false,
+	["showClientGuildBest"] = true,
+}
+RaiderIO_LastCharacter = "us-Quançhi-dalaran"
+RaiderIO_MissingCharacters = {
+}
+RaiderIO_MissingServers = {
+}
+RaiderIO_CachedRuns = nil
+RaiderIO_RWF = {
+}

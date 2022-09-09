@@ -1,0 +1,131 @@
+VER 3 0000000000000015 "c" "INV_MISC_QUESTIONMARK"
+#showtooltip Corruption
+/use [@mouseover,harm] [harm] Corruption
+END
+VER 3 0000000000000007 "Calendar" "132895"
+#showtooltip Calendar
+/Calendar
+END
+VER 3 0000000000000010 "Cat Paw" "537516"
+#showtooltip Shadow Word: Pain
+/cast [@mouseover] Shadow Word: Pain
+#showtooltip Vampiric Touch
+/cast [@mouseover] Vampiric Touch
+END
+VER 3 000000000000000E "Clean Bags" "237563"
+#showtooltip Clean
+/click BagItemAutoSortButton
+END
+VER 3 0000000000000001 "Combat Log On" "134331"
+/combatlog
+END
+VER 3 000000000000000C "DBM Pull" "132296"
+#showtooltip
+/y FOR THE AZEROTH!
+/pull 5
+#/point
+/reset=1
+END
+VER 3 000000000000005A "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Fear;  [@mouseover,exists,mod:ctrl] Fear; [@mouseover,exists,mod:shift] Fear
+END
+VER 3 0000000000000003 "Dr5" "INV_MISC_QUESTIONMARK"
+--Switch to Cat and Feral Charge
+#showtooltip Feral Charge(Cat Form)
+/use [nostance:3] Cat Form; [stance:3,] Feral Charge(Cat Form)
+END
+VER 3 0000000000000059 "Fix LUA" "134331"
+/console scripterrors
+END
+VER 3 0000000000000025 "Get'em Boy" "132212"
+/petattack
+/castsequence Aimed Shot, Arcane Shot, Arcane Shot, Concussive Shot
+END
+VER 3 0000000000000057 "GRM_Roster" "inv_bannerpvp_02"
+/run GuildFrame_Toggle()
+/run GuildFrame_TabClicked ( GuildFrameTab2 )
+END
+VER 3 0000000000000058 "GRM_Tool" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0000000000000005 "Guild Kicker" "878213"
+#showtooltip
+/run if CanGuildRemove() then for i=1,GetNumGuildMembers() do local y,m,d,n,_,r,l=GetGuildRosterLastOnline(i) n,_,r,l=GetGuildRosterInfo(i) if y and (y>0 or m>1 or d>7) and l<32 then GuildUninvite(n) print("Kicking",n) end end end
+END
+VER 3 0000000000000055 "hbCrashProt_0" "Spell_Holy_SealOfSacrifice"
+1:H:1:1:Group:
+END
+VER 3 0000000000000054 "hbCrashProt_1" "Spell_Holy_SealOfSacrifice"
+Pixel:p:ayer-60-0E50D992:1:
+END
+VER 3 000000000000005C "Hekili Settings" "134331"
+/hekili
+END
+VER 3 0000000000000006 "MKVI" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Drain Soul
+/y YOUR SOUL IS MINE %t!
+END
+VER 3 000000000000000A "Opening Burst" "236297"
+#shopwtooltip
+/castsequence reset=120 Rune of Power,Scorch,Fire Blast,Pyroblast,Fire Blast,Pyroblast,Fire Blast,Pyroblast,Phoenix's Flames,Pyroblast,Phoenix's Flames,Pyroblast,Phoenix's Flames,Pyroblast,Fire Blast,Pyroblast
+END
+VER 3 0000000000000024 "Pet Swarm" "461121"
+/petattack
+/cast Aimed Shot
+/cast Arcane Shot
+/cast Arcane Shot
+/cast Concussive Shot
+END
+VER 3 0000000000000009 "QT" "237446"
+#showtooltip
+/qc
+END
+VER 3 0000000000000056 "Self Heal" "237541"
+#showtooltip
+/cast [mod:alt,@player] [@mouseover,help,nodead] [help] [@targettarget,help,nodead] [] SPELL
+END
+VER 3 0000000000000002 "Spec Swap" "1266395"
+#showtooltip Priest(Holy/Shadow)
+/run SetSpecialization(GetSpecialization()==2 and 3 or 2)
+END
+VER 3 000000000000000F "SUF" "134331"
+/suf
+END
+VER 3 000000000000000D "Timer" "651728"
+#showtooltip
+/timer
+END
+VER 3 000000000000005B "Travel" "132144"
+#showtooltip
+/targetenemy [noharm]
+/cast [noform:4] Travel Form
+/cast Moonfire
+END
+VER 3 0000000000000016 "walk" "136075"
+/walk
+END
+VER 3 0000000000000008 "Wholly" "134331"
+#showtooltip
+/wholly
+END
+VER 3 000000000000000B "WTS " "538444"
+/2 WTS Crystallizing Mana, Moonfall Handwraps of the Peerless, Ambervale Bindings of the Aurora psssst
+END
+VER 3 0000000000000004 "ZygorAction1" "132212"
+#showtooltip Talk to Halford Wyrmbane
+/run ZGV:MCM(4)
+/cleartarget
+/target Halford Wyrmbane
+/run ZGV:MRM()
+END
+VER 3 0000000000000011 "ZygorAction2" "134400"
+END
+VER 3 0000000000000012 "ZygorAction3" "134400"
+END
+VER 3 0000000000000013 "ZygorAction4" "134400"
+END
+VER 3 0000000000000014 "ZygorAction5" "134400"
+END
+VER 3 0000000000000017 "ZygorAction6" "134400"
+END

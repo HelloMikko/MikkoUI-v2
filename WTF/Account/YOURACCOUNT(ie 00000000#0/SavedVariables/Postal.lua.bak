@@ -1,0 +1,21 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Hellomikko|Dalaran|Alliance|60|WARLOCK", -- [1]
+				"Kasplat|Dalaran|Horde|60|MAGE", -- [2]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Hellomikko - Dalaran"] = "Hellomikko - Dalaran",
+		["Kasplat - Dalaran"] = "Kasplat - Dalaran",
+	},
+	["profiles"] = {
+		["Hellomikko - Dalaran"] = {
+		},
+		["Kasplat - Dalaran"] = {
+		},
+	},
+}

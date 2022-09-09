@@ -1,0 +1,13 @@
+
+GottaGoFastHistoryDB = {
+	["profileKeys"] = {
+		["Hellomikko - Dalaran"] = "Default",
+		["Kasplat - Dalaran"] = "Default",
+		["Sæsha - Dalaran"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["DayFix"] = true,
+		},
+	},
+}
